@@ -5,7 +5,7 @@ Jekyll for Designers
 It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll) into a static site whenever you push your repository to GitHub.
 
 ##More Info
-I wrote a [blog post](http://muke.me) that explains the thought process that led to the creation of this repo.
+I wrote a [blog post](http://muke.me/2012/08/24/jekyll-for-designers.html) that explains the thought process that led to the creation of this repo.
 
 ##Usage
 This particular Jekyll base is intended to be used with Heroku. It uses [Matthew Manning's Ruby Jekyll Buildpack](https://github.com/mattmanning/heroku-buildpack-ruby-jekyll). Also, Compass and Sass are included to make things a little bit easier.
