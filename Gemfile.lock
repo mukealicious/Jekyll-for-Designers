@@ -10,7 +10,9 @@ GEM
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.2.0.alpha.93)
+    daemons (1.1.9)
     directory_watcher (1.4.1)
+    eventmachine (0.12.10)
     fast-stemmer (1.0.1)
     fssm (0.2.9)
     jekyll (0.11.2)
@@ -31,6 +33,10 @@ GEM
     rack-rewrite (1.2.1)
     sass (3.2.1)
     syntax (1.0.0)
+    thin (1.4.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
 
 PLATFORMS
   ruby
@@ -41,3 +47,4 @@ DEPENDENCIES
   rack-contrib
   rack-rewrite
   sass
+  thin
