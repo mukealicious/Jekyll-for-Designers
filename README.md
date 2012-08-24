@@ -20,7 +20,9 @@ Now you have all of the necessary gems installed that were listed in the Gemfile
 
 Head over to http://localhost:4000/ to see "Hello World"
 
-Your Jekyll install is up and running and ready to deploy! As taken from Matthew Manning's buildpack, you will need to run the following to deploy to Heroku.
+Your Jekyll install is up and running and ready to deploy! You will need to have git and heroku command line tools installed in order to deploy. These are available in the [Heroku Toolbelt](https://toolbelt.heroku.com/) if you don't have them already. 
+
+As taken from Matthew Manning's buildpack, you will need to run the following to deploy to Heroku.
 
 ```heroku create -s cedar --buildpack http://github.com/mattmanning/heroku-buildpack-ruby-jekyll.git```
 
