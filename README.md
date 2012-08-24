@@ -10,7 +10,7 @@ I wrote a [blog post](http://muke.me/2012/08/24/jekyll-for-designers.html) that 
 ##Usage
 This particular Jekyll base is intended to be used with Heroku. It uses [Matthew Manning's Ruby Jekyll Buildpack](https://github.com/mattmanning/heroku-buildpack-ruby-jekyll). Also, Compass and Sass are included to make things a little bit easier.
 
-After forking head to the local project direcotry on your machine in terminal and run
+After forking head to the local project directory on your machine in terminal and run
 
 ```bundle install```
 
